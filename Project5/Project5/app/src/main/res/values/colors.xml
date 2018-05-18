@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#4a312a</color>
+    <color name="primary_dark_color">#2f1d1a</color>
+    <color name="tan_background">#ece6d3</color>
+    <color name="category_himachal">#c4a425</color>
+    <color name="category_punjab">#63ba48</color>
+    <color name="category_uk">#9641d7</color>
+    <color name="category_north">#16afca</color>
+    <color name="category_east">#317683</color>
+    <color name="category_west">#114aa4</color>
+    <color name="category_south">#1640ca</color>
+</resources>

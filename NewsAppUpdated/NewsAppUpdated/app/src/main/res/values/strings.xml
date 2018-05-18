@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NewsAppUpdated</string>
+    <string name="no_date">Not a Valid Date</string>
+    <string name="not_connected">No connection Available</string>
+    <string name="no_data">No News Update Avaliable</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">App Settings</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_magnitude_value</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_magnitude_label">Category</string>
+    <string name="settings_order_by_magnitude_value" translatable="false">category</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">time</string>
+</resources>

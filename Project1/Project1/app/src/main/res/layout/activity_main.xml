@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sainisagar.project1.MainActivity">
+
+    <TextView
+        android:id="@+id/first_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:background="#612c2c"
+        android:textColor="#ffffff"
+        android:text="Cafe Coffee Day"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cafe"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/first_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visiting Hours: 9 AM to 10PM"
+        android:layout_above="@id/third_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#f7dbdc"
+        android:textColor="#1b1919"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/third_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Offers Visit nearest Opening"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#612c2c"
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

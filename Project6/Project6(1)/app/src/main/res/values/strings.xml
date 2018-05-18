@@ -1,0 +1,7 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">My News App</string>
+    <string name="no_date">Not a Valid Date</string>
+    <string name="not_connected">No connection Available</string>
+    <string name="no_data">No News Update Avaliable</string>
+    <string name="refresh">Refresh</string>
+</resources>

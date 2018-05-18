@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#910d0d"
+    tools:context="com.example.sainisagar.project3.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's Take A Quiz!"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When did Indian gained independence?"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:paddingLeft="20sp"/>
+        <EditText
+            android:id="@+id/name_view"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1)  What does the image depicts?"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="20sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cake2"
+            android:layout_below="@id/text_view1"
+            android:scaleType="fitStart"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:id="@+id/image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="A Cake"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:textColor="#ffffff"
+                android:text="An Apple Pie"
+                android:textSize="16sp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Noodles"
+                android:textColor="#ffffff"
+                android:textSize="16sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2)  Who is the father of computers?"
+            android:paddingLeft="24dp"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anton Von Leuvenhauk"
+                android:textColor="#ffffff"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/fatherc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charles Babbage"
+                android:textColor="#ffffff"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/type3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aristotle"
+                android:textColor="#ffffff"
+                android:paddingLeft="24dp"
+                android:textSize="16sp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3)  Who is the father of green revolution?"
+            android:paddingLeft="24dp"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Geeta Vishwas"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Pippu Singh"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+            <RadioButton
+                android:id="@+id/fatherg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Norman Burlough"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4)  Who is the father of history?"
+            android:paddingLeft="24dp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Hercules"
+                android:textColor="#ffffff"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:id="@+id/fatherh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Herodotus"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Gurmeet Ram Rahim"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5)  Dairy farms raise:"
+            android:textColor="#ffffff"
+            android:paddingLeft="24dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Goats"
+                android:textColor="#ffffff"
+                android:textSize="16sp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Chicken"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+            <RadioButton
+                android:id="@+id/dairyf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Cows"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="6)  The key elements of democracy are:"
+            android:textColor="#ffffff"
+            android:textSize="24sp"/>
+        <CheckBox
+            android:id="@+id/demo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Participation"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+        <CheckBox
+            android:id="@+id/demo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Equality and Justice"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+        <CheckBox
+            android:id="@+id/demo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Resolution of conflicts"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:onClick="submit"
+            android:text="SUBMIT ANSWERS"
+            />
+    </LinearLayout>
+</ScrollView>

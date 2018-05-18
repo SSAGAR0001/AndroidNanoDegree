@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Olliwanders- Best Wand shop in Britain</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Items</string>
+    <string name="editor_activity_title_new_pet">Add an Item</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="category_overview">Overview</string>
+    <string name="category_gender">Gender</string>
+    <string name="category_measurement">Details</string>
+    <string name="hint_prod_name">Name</string>
+    <string name="hint_prod_price">Price</string>
+    <string name="hint_prod_quantity">Quantity</string>
+    <string name="unit_prod_price">Units</string>
+    <string name="editor_insert_successful">Item saved</string>
+    <string name="editor_insert_failed">Error with saving item</string>
+    <string name="editor_update_failed">Error Updating item</string>
+    <string name="editor_update_successful">Item Updated!</string>
+    <string name="error_check">Please Enter Correct Values</string>
+    <string name="gender_unknown">Unknown</string>
+    <string name="orderSuccess">Order Successfully Placed!</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+    <string name="empty_view_subtitle_text">Get started by adding an item</string>
+    <string name="editor_activity_title_edit_item">Edit Item</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_edit">Keep Editing</string>
+    <string name="editor_delete_pet_successful">Pet deleted</string>
+    <string name="editor_delete_pet_failed">Error with deleting item</string>
+    <string name="delete_dialog_msg">Delete this item?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="wrong_quant">Qauntity not valid</string>
+
+</resources>
